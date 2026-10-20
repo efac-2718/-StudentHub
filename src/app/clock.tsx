@@ -17,6 +17,7 @@ export default function ClockScreen() {
         <View style={styles.container}>
             <Text style={styles.header}>Background Service Test</Text>
             <Text style={styles.time}>{time}</Text>
-            
+
         </View>
     );
+}
