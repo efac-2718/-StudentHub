@@ -1,5 +1,5 @@
-import {Tabs } from "expo-router";
-import {MaterialCommunityIcons} from "@expo/vector-icons";
+import { MaterialCommunityIcons } from "@expo/vector-icons";
+import { Tabs } from "expo-router";
 
 export default function RootLayout() {
   return (
@@ -7,7 +7,7 @@ export default function RootLayout() {
       <Tabs.Screen
         name="(home)"
         options={{
-          title: 'Home',
+          title: "Home",
           headerShown: false,
           tabBarIcon: ({ color }) => <MaterialCommunityIcons name="home" color={color} size={24} />
         }}
