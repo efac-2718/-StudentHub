@@ -1,5 +1,5 @@
-import React, {useState } from 'react';
-import { View, Text, Image, StyleSheet } from 'react-native';
+import { useState } from 'react';
+import { Image, StyleSheet, Text, View } from 'react-native';
 
 export default function DetailsScreen() {
     const [modalVisible, setModalVisible] = useState(false);
@@ -7,7 +7,7 @@ export default function DetailsScreen() {
     return (
         <View style={styles.container}>
             <Text style={styles.title}>Digital ID Card</Text>
-            <Image source={require('D:\\Users\\peirism-ec22070\\Desktop\\Practical Guide 03\\StudentHub\\assets\\images\\user.png')} style={styles.image} />
+            <Image source={require('../../../assets/images/user.png')} style={styles.image} />
             <Text style={styles.text}>Name: Enter your name here </Text>
             <Text style={styles.text}>Student ID: Enter your ID here</Text>
             <Text style={styles.text}>Course: Mobile Application Practical</Text>
